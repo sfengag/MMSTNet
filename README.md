@@ -4,4 +4,4 @@ This repo is the implementation of our manuscript entitled A macro-micro spatio-
 In this study, we present a macro-micro spatio-temporal neural network model (MMSTNet) for traffic prediction. The model utilizes a graph convolution network and a spatial attention network to capture micro and macro spatial correlations, respectively. It also employs a temporal convolution network and a temporal attention network to learn temporal patterns. The model can also integrate hierarchically learned representations based on designed attention mechanisms.
 
 ## Model framework
-dd
+<img src = "images/model framework1.png width="50%">
