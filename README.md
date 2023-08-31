@@ -7,7 +7,7 @@ In this study, we present a macro-micro spatio-temporal neural network model (MM
 <img src = "images/model framework1.png" width="50%">
 
 ## Dataset
-The dataset is based on California Department of Transportation (Caltrans) Performance Measurement (PeMS, https://pems.dot.ca.gov/), where we select two of them for testing (PEMS03 and PEMS08). The raw data for the two dataset can be found on the provided link. In the actual training and testing, we conduct some pre-processing such as Z-score normalization to make the raw data more appropriate for usage.
+The dataset is based on California Department of Transportation (Caltrans) Performance Measurement (PeMS, https://pems.dot.ca.gov/), where we select two of them for testing (PEMS03 and PEMS08). The raw data for the two dataset can be found on the provided link. In our training and testing, we conduct some pre-processing such as Z-score normalization to make the raw data more appropriate for usage. Readers can select their own preferred traffic dataset and required processing approaches to modify the project. 
 
 ## Explanation of the code files
 * engine.py: the training engine for MMSTNet
